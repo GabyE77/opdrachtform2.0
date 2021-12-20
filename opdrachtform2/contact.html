@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefen pagina</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <form name="contact" method="POST" data-netlify="true">
+
+        <p>
+            <label>Naam : <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Telefoonnummer : <input type="tel" name="phone" /></label>
+        </p>
+        <p>
+            <label>Leeftijd : <input type="number" name="age" /></label>
+        </p>
+        <p>
+            <label>Geslacht : <input type="radio" name="gender" value="vrouw" />Vrouw</label>
+            <label><input type="radio" name="gender" value="man" />Man</label>
+        </p>
+        <p>
+            <label for="checkbox">Favoriete keuken : </label>
+            <input type="checkbox" name="keuken1" value="Frans">
+            <label for="keuken1"> Frans</label>
+            <input type="checkbox" name="keuken2" value="Italiaans">
+            <label for="keuken2"> Italiaans</label>
+            <input type="checkbox" name="keuken3" value="Spaans">
+            <label for="keuken3"> Spaans</label>
+            <input type="checkbox" name="keuken3" value="Arabisch">
+            <label for="keuken3"> Arabisch</label>
+        </p>
+        <p>
+            <label for="favkleur">Favoriete kleur :</label>
+            <input type="color" name="favkleur">
+        </p>
+        <p>
+            <label>Biografie :
+                <textarea name="message" rows="20" cols="50"> </textarea></label>
+        </p>
+        <p>
+            <label for="recept">Upload recept :</label>
+            <input type="file" name="recept">
+        </p>
+        <p>
+            <label for="recept-pagina">Recept pagina:</label>
+            <input type="url" name="recept-pagina">
+        </p>
+        <p>
+            <input type="submit" value="invoeren">
+            <input type="reset" value="resetten">
+        </p>
+
+    </form>
+
+
+    <a href="index.html">Homepage</a>
+
+</body>
+
+</html>
